@@ -1,0 +1,270 @@
+
+body {
+  overflow-x: hidden;
+}
+
+.form-control{
+  border-color:black ;
+}
+
+.form-control::placeholder {
+  color: black;
+  opacity: 0.4;
+}
+
+input:focus::placeholder {
+  color: black;
+  opacity: 0.4; 
+}
+
+.hero-heading h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.testi-heading h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.hero-paragraf p {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.testi-paragraf p {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.testi-paragraf a {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  font-size: 16px;
+  color: hsl(170, 45%, 43%);
+}
+
+.hero-image img {
+  width: 600px;
+  height: auto;
+  float: right;
+}
+
+.testi {
+  width: 360px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.testi p{
+  font-size: 15px;
+}
+.testi img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.testi-img img {
+  width: 560px;
+  height: auto;
+}
+
+.kotak {
+  width: 23px;
+  height: 23px;
+  background-color: pink;
+}
+
+.curve {
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+}
+
+.tombol {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  height: 40px;
+}
+
+.tombol:hover {
+  background-color: #87a5fa;
+}
+
+#subscribe h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+}
+
+#subscribe p {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  width: 85%;
+}
+
+#footer p {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  width: 480px;
+}
+
+.attribution p {
+  font-family: Open Sans, sans-serif;
+  color: white;
+}
+
+.attribution a{
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: skyblue;
+}
+
+#credit{
+  background-color:hsl(243, 87%, 12%); 
+  color: white;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer a:hover {
+  color: skyblue;
+}
+
+.ikon{
+  fill: white;
+}
+
+.ikon:hover{
+  fill: skyblue;
+}
+
+.mbl-curve{
+    display: none;
+  }
+
+@media (max-width: 767px) { 
+
+  .row.flex-column-reverse.flex-md-row {
+    flex-direction: column-reverse;
+  }
+
+  .navbar-brand img{
+    width: auto;
+    height: 30px;
+  }
+
+  .curve{
+    display: none;
+  }
+
+  #hero-section h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+#hero-section p{
+    font-size: 14px;
+    text-align: center;
+}
+
+#hero-section{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.testi{
+  width: 90%;
+  height: auto;
+}
+
+.testi p{
+  font-size: 10px;
+}
+
+.profile img{
+  float: left;
+  display: inline;
+}
+
+.profile h6{
+  display: inline;
+}
+
+#testimoni h1{
+  font-size: 18px;
+  text-align: center;
+}
+
+#testimoni p{
+}
+
+.testi-paragraf a {
+  align-content: center;
+}
+
+#testimoni {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.kecil{
+  font-size: 12px;
+}
+ 
+ #subscribe h1{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #subscribe p{
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    width: 300px;
+  }
+
+  #footer{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #footer p{
+    margin-bottom: 7px;
+  }
+
+  .mbl-curve{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  #navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
